@@ -1,8 +1,8 @@
 {
-    "name": "komtcho/checkline",
+    "name": "komtcho/laravel-checkline",
     "autoload": {
         "psr-4": {
-            "Komtcho\\Checkline\\": "src/"
+            "Komtcho\\Laravel\\Checkline\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,12 @@
             "email": "komicho1996@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Komtcho\\Laravel\\Checkline\\ChecklineServiceProvider"
+            ]
+        }
+    }
 }
