@@ -1,0 +1,15 @@
+{
+    "name": "komtcho/checkline",
+    "autoload": {
+        "psr-4": {
+            "Komtcho\\Checkline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Mohamed",
+            "email": "komicho1996@gmail.com"
+        }
+    ],
+    "require": {}
+}
